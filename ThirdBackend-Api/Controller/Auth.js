@@ -25,6 +25,7 @@ exports.Register = async(req , res)=>{
       res.status(200).json({
         message : "User Registered Successfully",
         _id : user._id,
+        name : user.name
 
       })
 
